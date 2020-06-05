@@ -35,7 +35,6 @@ class TestEx2(unittest.TestCase):
             files.append(f"/dir{i}/dirb{i}/file{i}")
 
         queries = []
-
         for i in range(1000000):
             queries.append(f"nofile{i}")
 
